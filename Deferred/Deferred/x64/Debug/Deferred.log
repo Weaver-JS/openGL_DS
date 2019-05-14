@@ -1,0 +1,53 @@
+﻿  Camera.cpp
+c:\users\weaverr\downloads\enti-master\2016-2017\programación de shaders (shadertoy glm & c++) (2016-2017)\deferred\camera.h(36): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\weaverr\downloads\enti-master\2016-2017\programación de shaders (shadertoy glm & c++) (2016-2017)\deferred\camera.cpp(34): warning C4244: 'argument': conversion from 'T' to 'GLsizei', possible loss of data
+          with
+          [
+              T=float
+          ]
+  GLM: perspective function taking degrees as a parameter is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message.
+  Entity.cpp
+  FileReader.cpp
+c:\users\weaverr\downloads\enti-master\2016-2017\programación de shaders (shadertoy glm & c++) (2016-2017)\deferred\filereader.cpp(193): warning C4244: 'argument': conversion from 'double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+  GBuffer.cpp
+c:\users\weaverr\downloads\enti-master\2016-2017\programación de shaders (shadertoy glm & c++) (2016-2017)\deferred\gbuffer.cpp(144): warning C4244: 'argument': conversion from 'T' to 'GLsizei', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\weaverr\downloads\enti-master\2016-2017\programación de shaders (shadertoy glm & c++) (2016-2017)\deferred\gbuffer.cpp(156): warning C4244: 'argument': conversion from 'T' to 'GLsizei', possible loss of data
+          with
+          [
+              T=float
+          ]
+  Geometry.cpp
+c:\users\weaverr\downloads\enti-master\2016-2017\programación de shaders (shadertoy glm & c++) (2016-2017)\deferred\geometry.cpp(15): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\weaverr\downloads\enti-master\2016-2017\programación de shaders (shadertoy glm & c++) (2016-2017)\deferred\geometry.cpp(26): warning C4244: 'argument': conversion from 'float' to 'const unsigned __int64', possible loss of data
+c:\users\weaverr\downloads\enti-master\2016-2017\programación de shaders (shadertoy glm & c++) (2016-2017)\deferred\geometry.cpp(27): warning C4244: 'argument': conversion from 'float' to 'const unsigned __int64', possible loss of data
+c:\users\weaverr\downloads\enti-master\2016-2017\programación de shaders (shadertoy glm & c++) (2016-2017)\deferred\geometry.cpp(28): warning C4244: 'argument': conversion from 'float' to 'const unsigned __int64', possible loss of data
+  InputManager.cpp
+  jsoncpp.cpp
+  Light.cpp
+  main.cpp
+c:\users\weaverr\downloads\enti-master\2016-2017\programación de shaders (shadertoy glm & c++) (2016-2017)\deferred\camera.h(36): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\weaverr\downloads\enti-master\2016-2017\programación de shaders (shadertoy glm & c++) (2016-2017)\deferred\main.cpp(273): warning C4244: 'argument': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+  GLM: rotate function taking degrees as a parameter is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message.
+  MaterialManager.cpp
+  Scene.cpp
+  SceneCreator.cpp
+c:\users\weaverr\downloads\enti-master\2016-2017\programación de shaders (shadertoy glm & c++) (2016-2017)\deferred\scenecreator.cpp(31): warning C4018: '<': signed/unsigned mismatch
+c:\users\weaverr\downloads\enti-master\2016-2017\programación de shaders (shadertoy glm & c++) (2016-2017)\deferred\scenecreator.cpp(154): error C2593: 'operator [' is ambiguous
+  c:\users\weaverr\downloads\enti-master\2016-2017\programación de shaders (shadertoy glm & c++) (2016-2017)\deferred\json\json.h(860): note: could be 'Json::Value &Json::Value::operator [](int)'
+  c:\users\weaverr\downloads\enti-master\2016-2017\programación de shaders (shadertoy glm & c++) (2016-2017)\deferred\json\json.h(852): note: or       'Json::Value &Json::Value::operator [](Json::Value::ArrayIndex)'
+  c:\users\weaverr\downloads\enti-master\2016-2017\programación de shaders (shadertoy glm & c++) (2016-2017)\deferred\scenecreator.cpp(154): note: while trying to match the argument list '(Json::Value, size_t)'
+  TextureManager.cpp
+  Window.cpp
+  Generating Code...

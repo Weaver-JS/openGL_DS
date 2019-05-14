@@ -1,0 +1,61 @@
+{
+	"skybox": {
+		"name" : "skybox",
+		"object": "../resources/objects/skybox.obj",
+		"texture": "../resources/images/skybox.png",
+		"material" : "../resources/materials/metal.json",
+		"cubemap" : [
+			 "../resources/images/cubemap/dev_rt.png",
+			 "../resources/images/cubemap/dev_lf.png",
+			 "../resources/images/cubemap/dev_up.png",
+			"../resources/images/cubemap/dev_dn.png",
+			 "../resources/images/cubemap/dev_bk.png",
+			"../resources/images/cubemap/dev_ft.png"
+			]
+	},
+	"terrain": {
+		"name" : "terrain",
+		"object": "../resources/objects/plane.obj",
+		"texture": "../resources/images/floor.jpg",
+		"specularMap" : "../resources/images/floorS.png"
+	},
+	"decoration" : [
+		{
+			"name" : "teapot",
+			"object" : "../resources/objects/teapot.obj",
+			"texture" : "../resources/images/cup.jpg",
+			"specularMap" : "../resources/images/teapot_specular.png",
+			"position": {
+				"x" : -40,
+				"y" : 0,
+				"z" : 0
+			}
+		},
+		{
+			"name" : "lamp",
+			"object" : "../resources/objects/lamp.obj",
+			"texture" : "../resources/images/lantern.png",
+			"specularMap" : "../resources/images/lanternS.png",
+			"position": {
+				"x" : 26,
+				"y" : 0,
+				"z" : 0
+			}
+		},
+		{
+			"name" : "sphere",
+			"object" : "../resources/objects/sphere.obj",
+			"texture" : "../resources/images/red.png",
+			"specularMap" : "../resources/images/sphere_specular.png",
+			"position": {
+				"x" : 0,
+				"y" : 25,
+				"z" : 50
+			}
+		}
+	],
+	"lights" : [
+		"../resources/materials/lights/dir_blue.json",
+		"../resources/materials/lights/point_red.json"
+		]
+}

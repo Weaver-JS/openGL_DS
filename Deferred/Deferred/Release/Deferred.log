@@ -1,0 +1,40 @@
+﻿  Camera.cpp
+e:\workspace\c++\deferredshading\deferred\Camera.h(36): warning C4305: 'initializing': truncation from 'double' to 'float'
+Camera.cpp(34): warning C4244: 'argument': conversion from 'float' to 'GLsizei', possible loss of data
+  GLM: perspective function taking degrees as a parameter is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message.
+  Entity.cpp
+  FileReader.cpp
+FileReader.cpp(193): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  GBuffer.cpp
+GBuffer.cpp(144): warning C4244: 'argument': conversion from 'float' to 'GLsizei', possible loss of data
+GBuffer.cpp(156): warning C4244: 'argument': conversion from 'float' to 'GLsizei', possible loss of data
+  Geometry.cpp
+Geometry.cpp(20): warning C4018: '<': signed/unsigned mismatch
+Geometry.cpp(26): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+Geometry.cpp(27): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+Geometry.cpp(28): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+Geometry.cpp(35): warning C4018: '<': signed/unsigned mismatch
+  InputManager.cpp
+  jsoncpp.cpp
+  Light.cpp
+  main.cpp
+e:\workspace\c++\deferredshading\deferred\Camera.h(36): warning C4305: 'initializing': truncation from 'double' to 'float'
+main.cpp(273): warning C4244: 'argument': conversion from 'const float' to 'int', possible loss of data
+  GLM: rotate function taking degrees as a parameter is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message.
+  MaterialManager.cpp
+  Scene.cpp
+  SceneCreator.cpp
+SceneCreator.cpp(31): warning C4018: '<': signed/unsigned mismatch
+  TextureManager.cpp
+  Window.cpp
+soil.lib(SOIL.obj) : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:ICF' specification
+LINK : warning LNK4098: defaultlib 'LIBCMTD' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Generating code
+  All 2323 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+soil.lib(image_DXT.obj) : warning LNK4099: PDB 'SOIL.pdb' was not found with 'soil.lib(image_DXT.obj)' or at 'E:\Workspace\C++\DeferredShading\Release\SOIL.pdb'; linking object as if no debug info
+soil.lib(image_helper.obj) : warning LNK4099: PDB 'SOIL.pdb' was not found with 'soil.lib(image_helper.obj)' or at 'E:\Workspace\C++\DeferredShading\Release\SOIL.pdb'; linking object as if no debug info
+soil.lib(SOIL.obj) : warning LNK4099: PDB 'SOIL.pdb' was not found with 'soil.lib(SOIL.obj)' or at 'E:\Workspace\C++\DeferredShading\Release\SOIL.pdb'; linking object as if no debug info
+soil.lib(stb_image_aug.obj) : warning LNK4099: PDB 'SOIL.pdb' was not found with 'soil.lib(stb_image_aug.obj)' or at 'E:\Workspace\C++\DeferredShading\Release\SOIL.pdb'; linking object as if no debug info
+  Deferred.vcxproj -> E:\Workspace\C++\DeferredShading\Release\Deferred.exe
+  Deferred.vcxproj -> E:\Workspace\C++\DeferredShading\Release\Deferred.pdb (Full PDB)
